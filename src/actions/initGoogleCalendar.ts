@@ -3,6 +3,11 @@ import { envConfig } from "../envs/envConfig.js";
 
 const SCOPES = ["https://www.googleapis.com/auth/calendar", "https://www.googleapis.com/auth/calendar.events"];
 
+export const initGoogleCalendarFunctionDeclaration = {
+    name: "init_google_calendar",
+    description: "Cria uma nova instância autenticada da agenda.",
+};
+
 export const initGoogleCalendar = async (): Promise<calendar_v3.Calendar> => {
     try {
         const credentials = {

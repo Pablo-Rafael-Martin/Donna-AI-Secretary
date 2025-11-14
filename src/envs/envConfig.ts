@@ -9,4 +9,5 @@ export const envConfig = {
     google_private_key: process.env.GOOGLE_PRIVATE_KEY,
     google_client_id: process.env.GOOGLE_CLIENT_ID,
     google_client_email: process.env.GOOGLE_CLIENT_EMAIL,
+    gemini_api_key: process.env.GEMINI_API_KEY,
 };

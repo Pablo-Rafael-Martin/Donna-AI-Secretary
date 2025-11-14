@@ -1,7 +1,7 @@
 {
-    "name": "automated-tricount-bot",
+    "name": "automated-google-calendar-bot",
     "version": "1.0.0",
-    "description": "Whatsapp bot to generate tricount balances.",
+    "description": "",
     "main": "dist/index.js",
     "type": "module",
     "scripts": {
@@ -18,6 +18,7 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
+        "@google/genai": "^1.29.0",
         "@googleapis/calendar": "^12.0.0",
         "dotenv": "^17.2.3",
         "google-auth-library": "^10.4.1",
