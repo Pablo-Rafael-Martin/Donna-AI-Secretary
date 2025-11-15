@@ -20,9 +20,11 @@
     "dependencies": {
         "@google/genai": "^1.29.0",
         "@googleapis/calendar": "^12.0.0",
+        "@types/prompt-sync": "^4.2.3",
         "dotenv": "^17.2.3",
         "google-auth-library": "^10.4.1",
-        "googleapis": "^161.0.0"
+        "googleapis": "^161.0.0",
+        "prompt-sync": "^4.2.0"
     },
     "devDependencies": {
         "@types/node": "^24.8.1",
