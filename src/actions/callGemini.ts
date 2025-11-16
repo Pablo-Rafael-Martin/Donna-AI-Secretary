@@ -37,6 +37,8 @@ export default async function callGemini() {
     }
 
     async function processGeminiResponse(chat: Chat, geminiResponse: GenerateContentResponse) {
+        console.log("***************************************************************");
+
         if (geminiResponse.text) {
             /**
              *
@@ -51,7 +53,7 @@ export default async function callGemini() {
              *
              * Se a resposta for uma chamada de função:
              */
-            console.log("Gemini chamou funções... \n");
+            console.log("Gemini chamou funções...");
 
             const functionResponses: FunctionResponse[] = [];
 

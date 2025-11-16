@@ -68,3 +68,10 @@ npm run start
 # Sobre o projeto
 
 Você, usuário, envia mensagens para o Gemini, e ele possui a autonomia de te responder com mensagens de texto ou com function call, dependendo da necessidade. O programa fica atento à resposta do gemini e executa as function calls quando necessário.
+
+# Como usar
+
+Ao rodar o projeto, ele espera um input do usuário. É possível digitar:
+
+-   "exit" para sair;
+-   "clear" para limpar o terminal;
