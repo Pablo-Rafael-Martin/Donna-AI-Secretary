@@ -1,5 +1,5 @@
 {
-    "name": "automated-google-calendar-bot",
+    "name": "automated-ai-secretary",
     "version": "1.0.0",
     "description": "",
     "main": "dist/index.js",
@@ -7,11 +7,10 @@
     "scripts": {
         "build": "tsc",
         "start": "node dist/index.js",
-        "dev": "node --loader ts-node/esm src_new/index.ts"
+        "dev": "node --loader ts-node/esm src/index.ts"
     },
     "keywords": [
         "gemini",
-        "tricount",
         "ai",
         "typescript"
     ],
