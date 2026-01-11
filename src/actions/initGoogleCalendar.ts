@@ -28,6 +28,6 @@ export const initGoogleCalendar = async (): Promise<calendar_v3.Calendar> => {
         return calendar;
     } catch (error) {
         console.error("Error initializing Google Calendar API:", error);
-        throw new Error("Deu rim");
+        throw new Error("Erro ao inicializar a API do Google Calendar.");
     }
 };
